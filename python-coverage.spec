@@ -14,7 +14,7 @@
 Name:           python-coverage
 Summary:        Code coverage testing module for Python
 Version:        3.6
-Release:        0.3.%{?betaver}%{?dist}
+Release:        0.5.%{?betaver}%{?dist}
 License:        BSD and (MIT or GPLv2)
 Group:          System Environment/Libraries
 URL:            http://nedbatchelder.com/code/modules/coverage.html
@@ -99,6 +99,12 @@ popd
 
 
 %changelog
+* Tue Jan 28 2014 Daniel Mach <dmach@redhat.com> - 3.6-0.5.b3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.6-0.4.b3
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 3.6-0.3.b3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
